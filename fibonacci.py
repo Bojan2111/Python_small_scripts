@@ -14,4 +14,4 @@ while i<n:
 	i = len(lst)
 
 lsta = str(lst)
-print("The first " + na + " numbers of Fibonacci sequence are: " + lst)
+print("The first " + na + " numbers of Fibonacci sequence are: " + lsta)
