@@ -13,5 +13,8 @@ while i<n:
 	lst.append(a)
 	i = len(lst)
 
-lsta = str(lst)
-print("The first " + na + " numbers of Fibonacci sequence are: " + lsta)
+lsta = ', '.join(map(str, lst))
+print("The first " + na + " numbers of Fibonacci sequence are: " + lsta + ".")
+
+print("Press Enter to continue...")
+input()
